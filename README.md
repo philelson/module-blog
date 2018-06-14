@@ -97,7 +97,7 @@ http://magefan.com/docs/magento-2-blog/
   * Using command "cd" navigate to your magento2 root directory
   * Run commands:
 ```
-composer require magefan/module-blog
+composer require philelson/module-blog
 php bin/magento setup:upgrade
 php bin/magento setup:di:compile
 php bin/magento setup:static-content:deploy
@@ -107,26 +107,11 @@ php bin/magento setup:static-content:deploy
 composer require magefan/module-blog-m22
 ```
 
-  
-
-## Installation Method 2 - Installing using archive
-  * Install [Magefan Community Extension](https://github.com/magefan/module-community) first 
-  * Download [ZIP Archive](https://github.com/magefan/module-blog/archive/master.zip)
-  * Extract files
-  * In your Magento 2 root directory create folder app/code/Magefan/Blog
-  * Copy files and folders from archive to that folder
-  * In command line, using "cd", navigate to your Magento 2 root directory
-  * Run commands:
-```
-php bin/magento setup:upgrade
-php bin/magento setup:di:compile
-php bin/magento setup:static-content:deploy
-```
-
+ 
 ## Support
-If you have any issues, please [contact us](mailto:support@magefan.com)
+If you have any issues, please [contact us](philelson.uk)
 then if you still need help, open a bug report in GitHub's
-[issue tracker](https://github.com/magefan/module-blog/issues).
+[issue tracker](https://github.com/philelson/module-blog/issues).
 
 Please do not use Magento Marketplace Reviews or (especially) the Q&A for support.
 There isn't a way for us to reply to reviews and the Q&A moderation is very slow.
