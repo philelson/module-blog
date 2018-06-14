@@ -1,5 +1,5 @@
 {
-    "name": "magefan/module-blog",
+    "name": "philelson/module-blog",
     "description": "Implements Blog functionality on Magento 2 store",
     "require": {
         "php": "~5.6.5 || >=7.0",
